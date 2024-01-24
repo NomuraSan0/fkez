@@ -1,5 +1,6 @@
 import 'package:fkez/stylet.dart';
 import 'package:flutter/material.dart';
+import 'package:fkez/diceroll.dart';
 
 
 
@@ -14,8 +15,6 @@ Widget build(context) {
           Color.fromARGB(66, 225, 104, 104)
           ], begin: Alignment.topRight, end: Alignment.bottomLeft)),
       child: Center(
-        child: StyleT(),
-    
-    ));
+        child: DiceThrown()));
   }
 }
